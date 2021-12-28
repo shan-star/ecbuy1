@@ -7,7 +7,6 @@ export function request(config){
     baseURL: 'http://152.136.185.210:7878/api/m5',
   })
   //返回axios实例（axios内部实际上封装了一个Promise）
-  // return instance((resolve, reject) => {~  重复return 啦
     //进行拦截处理,调用interceptors拦截器对象(请求拦截)
     instance.interceptors.request.use((config) => {
       return config
