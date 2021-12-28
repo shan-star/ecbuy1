@@ -23,7 +23,4 @@ export function request(config){
 
     //返回网络请求结果
     return instance(config)
-  // })
-
-
 }
